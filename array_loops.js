@@ -11,7 +11,7 @@ let myArray = [1, 2, 3, 4, 5]
 // }))
 
 //3.Array From
-    // let change = Array.from("Rohit") // Create any Object to Array
+    // let change = Array.from("Rohit") // Convert any Object to Array
     // console.log(change); 
     
 //4.for-of // Used to Get Values from an Array
