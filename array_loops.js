@@ -21,6 +21,5 @@ let myArray = [1, 2, 3, 4, 5]
 
 //5. for-in // Used to Get the Keys in Array
     for( let keys in myArray){
-        console.log(myArray[keys]);
-        
+        console.log(myArray[keys]);   
     }
