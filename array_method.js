@@ -1,6 +1,6 @@
 //Array Methods
 
-let myArray = [ 10, 52, 85, 74, 36]
+let myArray = [ 10, 101, 85, 74, 36]
 
 //1. toString() // Covert Array to a String in a Comma Seprated Values
     // let change = myArray.toString()
@@ -36,11 +36,46 @@ let myArray = [ 10, 52, 85, 74, 36]
     // console.log(change);//Return the Length of Array
 
  //7. delete // It is an Operator . it is used to delete array element
-    let change = delete myArray[2]
-    console.log(myArray);
-    console.log(change);
-    console.log(typeof(change));
+    // let change = delete myArray[0]
+    // console.log(myArray);//[<1 empty item>, 52, 85, 74, 36 ]
+    // console.log(myArray.length);//5[Length of Array]
+    // console.log(change);//true
+    // console.log(typeof(change));//Bool
+    // console.log(myArray.length);//5[Length Not Change]
     
+//8 concat()// Add Multiples Array in Single Array but not Change the Original Array
+    // let new1 = [1, 2, 3, 4]
+    // let new2 = [11, 12, 13, 14]
+    // let new3 = [21, 22, 23, 24]
+
+    // let change = new1.concat(new2, new3) // Add More than One Array
+    // console.log(change); //Print All Array
+    // console.log(typeof(change)); //Object
+
+ //9. sort() // Sort an Array Alphabatically
+    // let compare = (a, b) =>{
+    //         return a - b ;
+    // }
+    // myArray.sort() 
+    // console.log(myArray);
+    // myArray.sort(compare)//Sort Array in Ascending Order
+    // console.log(myArray);
     
+//10. reverse() // Reverse an Given Array
+    // myArray.reverse()
+    // console.log(myArray);
+    
+ //11. slice() // Get SubArray
+        // let change = myArray.slice(2, 4) // Return Array From Index 2 to 3(less than 4)
+        // console.log(change);
+        // console.log(myArray);
+        
+ //12. splice()   // Used to add new Elemens from give position and remove elemnts from that position and add new element
+    // let change = myArray.splice(1, 3, 111, 222, 333, 444) //1. From Which Position Element is add, 2.How Many Element Delete from given position, 3.Those Element Whom you want to Print 
+    // console.log(myArray);//Print Updated Array
+    // console.log(change);//Print Remove Element
+    // console.log(typeof(change));//Object
+            
+
     
     
